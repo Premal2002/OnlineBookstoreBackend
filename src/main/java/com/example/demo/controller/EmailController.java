@@ -16,7 +16,8 @@ import com.google.gson.Gson;
 
 //@CrossOrigin(origins = "http://bookstorefrontend.s3-website.eu-north-1.amazonaws.com")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+//@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+@CrossOrigin(origins = {"https://onlinebooksheaven.netlify.app","http://localhost:4200"})
 @RestController
 public class EmailController {
 	@Autowired

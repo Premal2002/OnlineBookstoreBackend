@@ -27,7 +27,8 @@ import com.razorpay.RazorpayException;
 
 //@CrossOrigin(origins = "http://bookstorefrontend.s3-website.eu-north-1.amazonaws.com")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+//@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+@CrossOrigin(origins = {"https://onlinebooksheaven.netlify.app","http://localhost:4200"})
 @RestController
 @RequestMapping("/api/customer/")
 public class CustomerController 

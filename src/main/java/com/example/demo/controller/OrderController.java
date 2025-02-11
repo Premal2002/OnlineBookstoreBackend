@@ -21,7 +21,8 @@ import com.example.demo.service.OrderService;
 
 //@CrossOrigin(origins = "http://bookstorefrontend.s3-website.eu-north-1.amazonaws.com")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+//@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+@CrossOrigin(origins = {"https://onlinebooksheaven.netlify.app","http://localhost:4200"})
 @RestController
 @RequestMapping("/api/order/")
 public class OrderController {

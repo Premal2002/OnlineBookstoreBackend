@@ -22,7 +22,8 @@ import com.example.demo.service.ContactService;
 @RestController
 //@CrossOrigin(origins = "http://bookstorefrontend.s3-website.eu-north-1.amazonaws.com")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+//@CrossOrigin(origins = "https://onlinebooksheaven.netlify.app")
+@CrossOrigin(origins = {"https://onlinebooksheaven.netlify.app","http://localhost:4200"})
 @RequestMapping("/api/contact/")
 public class ContactController {
 
